@@ -1,0 +1,17 @@
+{
+
+ "extends": "stylelint-config-standard",
+
+ "rules": {
+
+  "selector-nested-pattern": "^&",
+
+  "no-descending-specificity": null,
+
+  "no-eol-whitespace": null,
+
+  "declaration-empty-line-before": null
+
+ }
+
+}

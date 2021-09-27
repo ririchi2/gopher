@@ -6,11 +6,12 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
 :root {
   --gopher-width: 360px;
   --gopher-height: 533px;
-  --gopher-color: #6AD6E3;
-  --gopher-skin-color: #F6D2A0;
+  --gopher-color: #6ad6e3;
+  --gopher-skin-color: #f6d2a0;
   --gopher-feet-rotation: 60deg;
   --gopher-paw-rotation: 80deg;
   --ear-size: 75px;
@@ -18,15 +19,15 @@
 }
 
 body {
-  background-image: 
-          repeating-linear-gradient(
-              -45deg,
-              #fff,
-              #fff 20px,
-              #b1e0ff 20px,
-              #b1e0ff 40px
-          )
-  }
+  background-image:
+    repeating-linear-gradient(
+      -45deg,
+      #fff,
+      #fff 20px,
+      #b1e0ff 20px,
+      #b1e0ff 40px
+    );
+}
 
 .gopher-container {
   display: flex;
@@ -142,7 +143,7 @@ body {
 .gopher-lip.left {
   border-radius: 48% 0% 0% 48%;
   border-right: 0;
-  transform: 
+  transform:
     translateY(-15px)  
     rotate(-32deg);
 }
@@ -151,8 +152,8 @@ body {
   border-radius: 0% 48% 48% 0%;
   border-left: 0;
   transform:
-  translateX(2px)
-  translateY(-15px)
+    translateX(2px)
+    translateY(-15px)
     rotate(25deg);
 }
 
@@ -243,15 +244,17 @@ body {
 }
 
 .gopher-finger.left {
-  transform: translateY(67px)
-  translateX(10px)
-  rotate(-100deg);
+  transform:
+    translateY(67px)
+    translateX(10px)
+    rotate(-100deg);
 }
 
 .gopher-finger.right {
-  transform: translateY(67px)
-  translateX(10px)
-  rotate(100deg);
+  transform:
+    translateY(67px)
+    translateX(10px)
+    rotate(100deg);
 }
 
 .gopher-toe {
@@ -260,15 +263,16 @@ body {
   background-color: black;
 }
 
-
 .gopher-toe.left {
-  transform: translateY(67px)
-  translateX(10px)
-  rotate(-100deg);
+  transform:
+    translateY(67px)
+    translateX(10px)
+    rotate(-100deg);
 }
 
 .gopher-toe.right {
-  transform: translateY(67px)
-  translateX(10px)
-  rotate(100deg);
+  transform:
+    translateY(67px)
+    translateX(10px)
+    rotate(100deg);
 }
